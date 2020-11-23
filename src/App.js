@@ -1,15 +1,16 @@
 
 import React,{Component} from 'react'
 import "./App.css"
-import CurrencyConverter from "./components/CurrencyConverter"
+
 import Forex from "./components/Forex"
+import Converter from "./components/Converter"
 
 class App extends Component {
   render(){
     return (
       <div>
-      <CurrencyConverter />
       <Forex/>
+      <Converter />
       </div>
       
     )
