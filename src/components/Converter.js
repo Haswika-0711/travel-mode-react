@@ -34,7 +34,7 @@ class Converter extends React.Component {
             .catch(err => {
                 console.log("oppps", err);
             });
-        console.log("api called");
+        //console.log("api called");
     }
 
     statePopulate = () => {
